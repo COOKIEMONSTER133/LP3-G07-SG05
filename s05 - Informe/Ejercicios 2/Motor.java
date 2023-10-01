@@ -9,7 +9,7 @@ public class Motor {
 
     public String toString() {
 
-        return "NumMotor: " + numMotor + " RevPorMin: " + revPorMin;
+        return "\nNo.Motor:    " + numMotor + "\nRPM:         " + revPorMin;
     }
 
 }

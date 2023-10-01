@@ -53,8 +53,10 @@ public class Automovil {
     }
 
     public String toString() {
-
-        return "Placa: " + placa + " NumPuertas: " + numPuertas + " Marca: " + marca + " Modelo: " + modelo + " Motor: "
-                + motor;
+        if (motor != null){
+            return "Automovil con motor: "+"\nPlaca:       " + placa + "\nNo.Puertas:  " + numPuertas + "\nMarca:       " + marca + "\nModelo:      " + modelo + motor+"\n";
+        }else{
+            return "Automovil sin motor: "+"\nPlaca:       " + placa + "\nNo.Puertas:  " + numPuertas + "\nMarca:       " + marca + "\nModelo:      " + modelo + "\n";
+        }
     }
 }

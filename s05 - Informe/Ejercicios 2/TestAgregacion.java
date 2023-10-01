@@ -5,10 +5,10 @@ public class TestAgregacion {
         automovil1.setMotor(motor1);
         Automovil automovil2 = new Automovil("XYZ789", 2, "Honda", "Civic");
         automovil2.setMotor(new Motor(67890, 2500));
-
-        System.out.println("Datos del Automóvil 1:");
+        Automovil automovil3 = new Automovil("URD749", 4, "Honda", "Civic");
+        
         System.out.println(automovil1);
-        System.out.println("\nDatos del Automóvil 2:");
         System.out.println(automovil2);
+        System.out.println(automovil3);
     }
 }
